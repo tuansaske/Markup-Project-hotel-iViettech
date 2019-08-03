@@ -62,11 +62,27 @@ div {
 
 ul {
   list-style: none;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
-a, a:hover, a:visited, a:active, a:link {
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
   text-decoration: none;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid-custom {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .ma-l-5px {
@@ -105,6 +121,10 @@ a, a:hover, a:visited, a:active, a:link {
   padding: 10px;
 }
 
+.ma-t-123px {
+  margin-top: 123px;
+}
+
 .page {
   position: relative;
   width: 100%;
@@ -139,7 +159,6 @@ a, a:hover, a:visited, a:active, a:link {
 }
 
 .header {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
