@@ -1,0 +1,42 @@
+.over-flow-zoom-animate {
+  overflow: hidden;
+}
+
+.hover-zoom-animate {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+    width: 100%;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+.header-content:hover > .my-photo > img {
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.header-content > .my-photo > img {
+  transition: 0.3s ease-in-out;
+}
+/*=====Hieu ung Focus intput: Awesome input focus effects https://codepen.io/Takumari85/pen/RaYwpJ ======*/
+
+.effect-1 ~ .focus-border {
+  width: 0; /* right: 0; */
+  height: 2px;
+  background-color: $style-of-me;
+  transition: 0.4s ease-in-out;
+  display: block;
+}
+
+.effect-1:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s ease-in-out;
+}
+/*=====Hieu ung Focus intput======*/
+
+.effect-box-shadow:hover{
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+}
