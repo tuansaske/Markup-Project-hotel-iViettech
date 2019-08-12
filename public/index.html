@@ -36,7 +36,6 @@
     <!--START: HEADER--->
     <header class="header">
       <div class="header_content">
-
         <div class="logo_container d-flex flex-column align-items-center justify-content-center">
           <div class="logo">
             <a href="#" class="text-center">
@@ -69,91 +68,107 @@
                   </ul>
                 </nav>
                 <a href="#" class="button_container header_button ml-auto">
-                  <div class="button text-center"><span>Book Your Stay</span></div>
+                  <div class="button text-center"><span>Đặt phòng ngay</span></div>
                 </a>
-                <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <div class="menu-mobile ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-
-    <!-- <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="logo_container d-flex flex-column align-items-center justify-content-center">
-          <div class="logo">
-            <a href="#" class="text-center">
-              <div class="logo_subtitle">Khách sạn</div>
-              <div class="logo_title">Samira</div>
-            </a>
-          </div>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container">
-          <div class="row">
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Trang chủ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Về Chúng tôi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Phòng ở</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Tin tức</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Liên hệ</a>
-                </li>
-              </ul>
-              <a href="#" class="button_container header_button ml-auto">
-                <div class="button text-center"><span>Book Your Stay</span></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header> -->
     <!--END: HEADER--->
 
-    <section>
-      <div class="row container-fluid-custom">
-        <div class="col container-fluid-custom">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner ">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/images/home_slider_1.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/home_slider_1.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/home_slider_1.jpg" alt="Third slide">
+    <!--START: BANNER SLIDER--->
+    <section class="banner_slider row container-fluid-custom">
+      <div class="col container-fluid-custom">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <!-- <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol> -->
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+              <div class="custom-image-slider d-flex flex-column align-items-center justify-content-center" style="background-image:url(assets/images/home_slider_1.jpg)">
+                <h3 class="text-banner">Dịch vụ tiện nghi cao cấp</h3>
+                <a href="#" class="button_container_slide">
+                  <div class="button text-center"><span>Đặt phòng ngay</span></div>
+                </a>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+              <div class="custom-image-slider d-flex flex-column align-items-center justify-content-center" style="background-image:url(assets/images/home_slider_1.jpg)">
+                <h3 class="text-banner">Khách sạn đạt chuẩn 4 sao quốc tế</h3>
+                <a href="#" class="button_container_slide">
+                  <div class="button text-center"><span>Đặt phòng ngay</span></div>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="custom-image-slider d-flex flex-column align-items-center justify-content-center" style="background-image:url(assets/images/home_slider_1.jpg)">
+                <h3 class="text-banner">Cung cấp bữa ăn sáng và nước uống miễn phí!</h3>
+                <a href="#" class="button_container_slide">
+                  <div class="button text-center"><span>Đặt phòng ngay</span></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--END: BANNER SLIDER--->
+
+    <!--START: SEARCH BAR--->
+    <section class="banner_slider row container-fluid-custom">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="search_bar_container">
+              <form action="#" id="search_bar_form" class="search_bar_form d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-between clearfix">
+                <div>
+                  <select class="search_form_select">
+                    <option disabled="" selected="">Ngày thuê phòng</option>
+                    <option>12/08/2019</option>
+                    <option>13/08/2019</option>
+                    <option>14/08/2019</option>
+                  </select>
+                </div>
+                <div>
+                  <select class="search_form_select">
+                    <option disabled="" selected="">Ngày trả phòng</option>
+                    <option>22/08/2019</option>
+                    <option>22/08/2019</option>
+                    <option>22/08/2019</option>
+                  </select>
+                </div>
+                <div>
+                  <select class="search_form_select">
+                    <option disabled="" selected="">Loại phòng</option>
+                    <option>Cao cấp 1</option>
+                    <option>Cao cấp 2</option>
+                    <option>Cao cấp 3</option>
+                    <option>Cao cấp 4</option>
+                  </select>
+                </div>
+                <div><button class="search_bar_button">Tìm kiếm</button></div>
+              </form>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!--END: SEARCH BAR--->
+
 
   </div>
   <!--END: PAGE--->
