@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #081123;
+  background: $color-style-hotel;
   z-index: 100;
 }
 
@@ -13,7 +13,7 @@
   left: 0;
   width: 265px;
   height: 100%;
-  background: #5a2360;
+  background: $color-style-hotel-hover;
   z-index: 1;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .logo_title {
-  font-family: 'Playfair Display', serif;
+  font-family: $font-heading-banner-style;
   font-size: 30px;
   font-weight: 700;
   color: #FFFFFF;
@@ -101,7 +101,7 @@
 
 .main_nav ul li.active,
 .main_nav ul li:hover {
-  background: #5a2360;
+  background: $color-style-hotel-hover;
 }
 
 .main_nav ul li.active a div span::after,
@@ -116,4 +116,9 @@
   display: none;
   cursor: pointer;
   margin-top: 5px;
+  i{
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: all 200ms ease;
+  }
 }

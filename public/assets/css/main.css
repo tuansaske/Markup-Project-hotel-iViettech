@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap&subset=cyrillic,latin-ext,vietnamese");
 @import 'https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i';
 .clearfix:after,
@@ -19,11 +20,11 @@
 }
 
 body {
-  font-family: roboto,Helvetica,sans-serif;
+  font-family: Poppins, Helvetica, sans-serif;
   margin: 0;
   height: 100%;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   /* overflow: hidden;
     background-size: cover;
     -webkit-background-size: cover;
@@ -48,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Poppins, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 600;
   font-style: normal;
   color: #333;
@@ -190,7 +191,7 @@ a:visited {
 }
 
 .logo_title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 700;
   color: #FFFFFF;
@@ -281,6 +282,14 @@ a:visited {
   margin-top: 5px;
 }
 
+.menu-mobile i {
+  font-size: 18px;
+  color: #FFFFFF;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
 .custom-image-slider {
   height: 700px;
 }
@@ -288,6 +297,7 @@ a:visited {
 .text-banner {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
+  font-weight: 300;
   line-height: 1.2;
   color: #FFFFFF;
   margin-top: 9px;
@@ -297,6 +307,18 @@ a:visited {
 
 .button_container_slide {
   margin-top: 50px;
+}
+
+.footer_section {
+  margin-top: 60px;
+  padding: 30px 0;
+  background-color: #081123;
+}
+
+.footer_section h3,
+.footer_section p,
+.footer_section a {
+  color: #ffffff;
 }
 
 /*-----------PRELOADING------------ */
@@ -469,7 +491,7 @@ a:visited {
   width: 0;
   /* right: 0; */
   height: 2px;
-  background-color: #388E3C;
+  background-color: #fff;
   -webkit-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
@@ -495,10 +517,7 @@ a:visited {
   background: #320d36;
   height: 162px;
   margin-top: -82px;
-  padding-left: 50px;
-  padding-right: 48px;
-  padding-top: 53px;
-  padding-bottom: 50px;
+  padding: 53px 48px 50px 50px;
 }
 
 .search_bar_form > div {
@@ -519,7 +538,7 @@ a:visited {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
-  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   border: none;
   outline: none;
@@ -553,4 +572,172 @@ a:visited {
   -webkit-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
+}
+
+/*======START: Giới thiệu ngắn khách sạn=====*/
+.text-heading {
+  margin: 0;
+  color: #232323;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.about_section {
+  margin-top: 60px;
+}
+
+.img_full_width {
+  width: 100%;
+}
+
+/*======END Giới thiệu ngắn khách sạn=====*/
+/*======START: Dịch vụ tiện nghi=====*/
+.service_section {
+  margin-top: 60px;
+}
+
+.content_section ul {
+  margin-top: 25px;
+}
+
+.content_section ul li {
+  margin-top: 15px;
+  color: #232323;
+  width: 50%;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+/*======END: Dịch vụ tiện nghi=====*/
+/*======START: map=====*/
+.row_col_reset {
+  margin: 0;
+  padding: 0;
+}
+
+.map_section {
+  margin-top: 60px;
+}
+
+/*======END: map=====*/
+/* CSS Document */
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+/************
+1. 1600px
+************/
+/************
+2. 1440px
+************/
+/************
+3. 1380px
+************/
+/************
+3. 1280px
+************/
+@media only screen and (max-width: 1280px) {
+  .header_button {
+    display: none;
+  }
+  .header_inner {
+    padding-left: 268px;
+  }
+  .home_title {
+    font-size: 72px;
+  }
+}
+
+/************
+4. 1199px
+************/
+@media only screen and (max-width: 1199px) {
+  .menu-mobile {
+    display: block;
+  }
+  .header_inner {
+    padding-left: 220px;
+  }
+  .intro_2 {
+    right: 58px;
+  }
+  .big_room_text p {
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+  }
+  .big_room_slider_container {
+    height: 750px;
+  }
+  .footer_menu ul li:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+/************
+4. 1100px
+************/
+/************
+5. 1024px
+************/
+/************
+6. 991px
+************/
+@media only screen and (max-width: 991px) {
+  .main_nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .home_slider_dots {
+    left: 30px;
+  }
+  .search_bar_container {
+    height: auto;
+    width: 100%;
+    left: auto;
+  }
+  .search_bar_form > div:not(:last-child) {
+    padding-right: 0;
+    padding-bottom: 17px;
+  }
+  .search_bar_form > div:first-child,
+  .search_bar_form > div:nth-child(2),
+  .search_bar_form > div:nth-child(3) {
+    width: 100%;
+  }
+  .intro_col:not(:last-child) {
+    margin-bottom: 80px;
+  }
+  .intro_2 {
+    right: 98px;
+  }
+  .room_col:not(:last-child) {
+    margin-bottom: 80px;
+  }
+  .newsletter_form_container {
+    margin-top: 70px;
+  }
+  .footer_col:not(:last-child) {
+    margin-bottom: 60px;
+  }
 }

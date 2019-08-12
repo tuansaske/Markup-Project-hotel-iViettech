@@ -1,0 +1,142 @@
+@charset "utf-8"; /* CSS Document */
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+/************
+1. 1600px
+************/
+@media only screen and (max-width: 1600px) {}
+/************
+2. 1440px
+************/
+@media only screen and (max-width: 1440px) {}
+/************
+3. 1380px
+************/
+@media only screen and (max-width: 1380px) {}
+/************
+3. 1280px
+************/
+@media only screen and (max-width: 1280px) {
+  .header_button {
+    display: none;
+  }
+
+  .header_inner {
+    padding-left: 268px;
+  }
+
+  .home_title {
+    font-size: 72px;
+  }
+}
+/************
+4. 1199px
+************/
+@media only screen and (max-width: 1199px) {
+  .menu-mobile {
+    display: block;
+  }
+
+  .header_inner {
+    padding-left: 220px;
+  }
+
+  .intro_2 {
+    right: 58px;
+  }
+
+  .big_room_text p {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+  }
+
+  .big_room_slider_container {
+    height: 750px;
+  }
+
+  .footer_menu ul li:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+/************
+4. 1100px
+************/
+@media only screen and (max-width: 1100px) {}
+/************
+5. 1024px
+************/
+@media only screen and (max-width: 1024px) {}
+/************
+6. 991px
+************/
+@media only screen and (max-width: 991px) {
+  .main_nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .home_slider_dots {
+    left: 30px;
+  }
+
+  .search_bar_container {
+    height: auto;
+    width: 100%;
+    left: auto;
+  }
+
+  .search_bar_form > div:not(:last-child) {
+    padding-right: 0;
+    padding-bottom: 17px;
+  }
+
+  .search_bar_form > div:first-child,
+  .search_bar_form > div:nth-child(2),
+  .search_bar_form > div:nth-child(3) {
+    width: 100%;
+  }
+
+  .intro_col:not(:last-child) {
+    margin-bottom: 80px;
+  }
+
+  .intro_2 {
+    right: 98px;
+  }
+
+  .room_col:not(:last-child) {
+    margin-bottom: 80px;
+  }
+
+  .newsletter_form_container {
+    margin-top: 70px;
+  }
+
+  .footer_col:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
