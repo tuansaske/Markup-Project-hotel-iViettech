@@ -49,6 +49,10 @@
   height: 123px;
   padding-left: 187px;
   transition: all 600ms ease;
+  display: flex;
+  align-content: center;
+  /* flex-direction: row; */
+  align-items: center;
 }
 
 .main_nav {
@@ -56,6 +60,7 @@
 
   ul {
     height: 100%;
+    display: flex;
 
     li {
       list-style-type: none;
@@ -69,8 +74,11 @@
         padding-right: 32px;
         color: #FFFFFF;
 
-        div {
+        div.nav_item {
           height: 100%;
+          display: flex;
+          align-content: center;
+          align-items: center;
 
           span {
             font-size: 14px;
@@ -109,14 +117,12 @@
   visibility: visible;
   opacity: 1;
 }
-
-
-
 .menu-mobile {
   display: none;
   cursor: pointer;
   margin-top: 5px;
-  i{
+
+  i {
     font-size: 18px;
     color: #FFFFFF;
     transition: all 200ms ease;

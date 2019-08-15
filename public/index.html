@@ -3,9 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <!-- <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" /> -->
+  <link rel="icon" type="image/x-icon" href="./assets/images/cropped-Alana-icon-1.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alana Hotel Nha Trang - Chất lượng, tiện nghi, thư giản cho kỳ nghĩ thú vị!</title>
+
+  <meta property="og:title" content="Trang chủ &bull; Alana Nha Trang Beach Hotel" />
+  <meta name="description" content="Khách sạn nghĩ dưỡng 4 sao cao cấp tại thành phố biển Nha trang.">
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="assets/css/main.css" type="text/css">
@@ -41,30 +44,41 @@
         <a href="#" class="text-center">
           <div class="logo_subtitle">Khách sạn</div>
           <div class="logo_title">Alana</div>
+          <div class="logo_subtitle">Nha Trang Beach</div>
         </a>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="header_inner d-flex flex-row align-items-center">
-            <nav class="main_nav">
-              <ul class="d-flex flex-row align-items-center">
-                <li class="active"><a href="index.html">
-                    <div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Trang chủ</span></div>
-                  </a></li>
-                <li><a href="about.html">
-                    <div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Về chúng tôi</span></div>
-                  </a></li>
-                <li><a href="rooms.html">
-                    <div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Phòng ở</span></div>
-                  </a></li>
-                <li><a href="news.html">
-                    <div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Tin tức</span></div>
-                  </a></li>
-                <li><a href="contact.html">
-                    <div class="nav_item d-flex flex-column align-items-center justify-content-center"><span>Liên hệ</span></div>
-                  </a></li>
+          <div class="header_inner">
+            <nav class="main_nav animate nav_mobile_hide">
+              <ul>
+                <li class="active">
+                  <a href="index.html">
+                    <div class="nav_item"><span>Trang chủ</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">
+                    <div class="nav_item"><span>Về chúng tôi</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="rooms.html">
+                    <div class="nav_item"><span>Phòng ở</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news.html">
+                    <div class="nav_item"><span>Tin tức</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="contact.html">
+                    <div class="nav_item"><span>Liên hệ</span></div>
+                  </a>
+                </li>
               </ul>
             </nav>
             <a href="#" class="button_container header_button ml-auto">
@@ -263,6 +277,15 @@
   <!-- <script src="assets/js/lib/jquery-3.3.1.slim.min.js"></script> -->
   <script src="assets/js/lib/bootstrap.min.js"></script>
   <script src="assets/js/custom.js"></script>
+
+  <script>
+  $(function() {
+    $('.menu-mobile').click(function() {
+      $(".main_nav").toggleClass('nav_mobile_hide');
+    });
+  });
+
+  </script>
 
 </body>
 
