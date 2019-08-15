@@ -12,6 +12,18 @@
   width: 80%;
   text-align: center;
 }
-.button_container_slide{
+
+.button_container_slide {
   margin-top: 50px;
+}
+
+.carousel-indicators {
+  top: 50%;
+  left: 100px;
+  margin: 0;
+  display: initial;
+}
+
+.carousel-indicators li {
+  height: 8px;
 }

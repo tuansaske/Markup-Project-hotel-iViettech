@@ -34,8 +34,7 @@
 3. 1280px
 ************/
 @media only screen and (max-width: 1280px) {
-
-  .nav_mobile_hide{
+  .nav_mobile_hide {
     display: none;
   }
 
@@ -56,6 +55,7 @@
       margin-top: 123px;
 
       li {
+        text-align: center;
         z-index: 1;
         width: 100%;
         height: 60px;
@@ -69,6 +69,9 @@
     background: #320d36;
   }
 
+  .main_nav ul li a div.nav_item span::after {
+    display: none;
+  }
 }
 /************
 4. 1199px
@@ -107,20 +110,22 @@
 6. 991px
 ************/
 @media only screen and (max-width: 991px) {
+  .logo_title {
+    font-size: 20px;
+  }
 
-.logo_title{
-  font-size: 20px;
-}
-.logo_subtitle, .logo_subtitle_2 {
+  .logo_subtitle,
+  .logo_subtitle_2 {
     font-size: 8px;
-}
+  }
+
   .animate {
     transition: all 0.44s ease-in-out;
-}
+  }
 
   .header_inner {
     padding-left: 0;
-}
+  }
 
   .home_slider_dots {
     left: 30px;

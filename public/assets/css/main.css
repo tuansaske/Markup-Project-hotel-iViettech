@@ -338,16 +338,59 @@ a:visited {
   margin-top: 50px;
 }
 
+.carousel-indicators {
+  top: 50%;
+  left: 100px;
+  margin: 0;
+  display: initial;
+}
+
+.carousel-indicators li {
+  height: 8px;
+}
+
 .footer_section {
   margin-top: 60px;
   padding: 30px 0;
   background-color: #081123;
 }
 
+.footer_section a,
 .footer_section h3,
-.footer_section p,
-.footer_section a {
+.footer_section p {
   color: #ffffff;
+}
+
+.social-links {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 2px;
+  width: 28px;
+  height: 28px;
+  color: #888;
+  background-color: #eee;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links a i {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.p-info-footer > i {
+  width: 20px;
 }
 
 /*-----------PRELOADING------------ */
@@ -719,7 +762,6 @@ h2.text-heading {
 
 .room_button {
   position: absolute;
-  left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -794,6 +836,7 @@ h2.text-heading {
     margin-top: 123px;
   }
   .main_nav ul li {
+    text-align: center;
     z-index: 1;
     width: 100%;
     height: 60px;
@@ -802,6 +845,9 @@ h2.text-heading {
   .main_nav ul li.active,
   .main_nav ul li:hover {
     background: #320d36;
+  }
+  .main_nav ul li a div.nav_item span::after {
+    display: none;
   }
 }
 
@@ -842,7 +888,8 @@ h2.text-heading {
   .logo_title {
     font-size: 20px;
   }
-  .logo_subtitle, .logo_subtitle_2 {
+  .logo_subtitle,
+  .logo_subtitle_2 {
     font-size: 8px;
   }
   .animate {
