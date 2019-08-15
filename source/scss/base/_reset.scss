@@ -7,7 +7,6 @@
   scroll-behavior: smooth;
 }
 */
-
 * {
   margin: 0;
   padding: 0;
@@ -32,11 +31,10 @@ body {
 
 body,
 p {
-  font-family: $font-body;
+  font-family: $font-p;
   font-size: 14px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.85em;
+  line-height: 2;
+  font-weight: 500;
   color: $text-color-body;
 }
 
@@ -49,7 +47,7 @@ h6 {
   font-family: $font-heading;
   font-weight: 600;
   font-style: normal;
-  color: $color-heading;
+  color: $text-color-heading;
   line-height: 1.5em;
 }
 

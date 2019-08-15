@@ -64,12 +64,13 @@
 }
 /*======START: Giới thiệu ngắn khách sạn=====*/
 
-.text-heading {
+h2.text-heading {
   margin: 0;
   color: #232323;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.2;
   font-weight: 700;
+  font-family: $font-heading-banner-style;
 }
 
 .about_section {
@@ -98,12 +99,95 @@
   }
 }
 /*======END: Dịch vụ tiện nghi=====*/
+
+/*======START: Rooms=====*/
+
+.rooms_section {
+  margin-top: 60px;
+}
+
+.room_row {
+  margin-top: 80px;
+}
+
+.room {
+  box-shadow: 0 23px 35px rgba(4,4,4,0.18);
+}
+
+.room_image {
+  width: 100%;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.room_content {
+  padding: 58px 30px 62px;
+}
+
+.room_price {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -27px;
+  width: 185px;
+  height: 47px;
+  background: #FFFFFF;
+  line-height: 47px;
+  font-size: 14px;
+  color: #5a2360;
+  font-weight: 500;
+
+  span {
+    color: #8d8d8d;
+  }
+}
+
+.room_type {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7e7e7e;
+  text-transform: uppercase;
+  line-height: 0.75;
+}
+
+.room_title {
+  margin-top: 13px;
+
+  a {
+    font-family: $font-heading-banner-style;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 1.25;
+    transition: all 200ms ease;
+  }
+
+  a:hover {
+    color: #d6baa0;
+  }
+}
+
+.room_text {
+  margin-top: 27px;
+}
+
+.room_button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -32px;
+}
+/*======END: Rooms=====*/
+
 /*======START: map=====*/
-.row_col_reset{
+.row_col_reset {
   margin: 0;
   padding: 0;
 }
+
 .map_section {
-  margin-top: 60px;
+  margin-top: 120px;
 }
 /*======END: map=====*/

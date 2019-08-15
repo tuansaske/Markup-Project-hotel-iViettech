@@ -108,6 +108,12 @@
 ************/
 @media only screen and (max-width: 991px) {
 
+.logo_title{
+  font-size: 20px;
+}
+.logo_subtitle, .logo_subtitle_2 {
+    font-size: 8px;
+}
   .animate {
     transition: all 0.44s ease-in-out;
 }
